@@ -11,3 +11,15 @@
 
 
 // let lastName: string = "Haseeb Ur Rehman"
+
+
+// let personName = "Albert Einstein"
+// let message = "once said, “A person who never made a mistake never tried anything new.”"
+
+// console.log(personName, message);
+
+let person_name = "Albert Einstein"
+let message = "once said, “A person who never made a mistake never tried anything new.”"
+
+console.log(person_name, message);
+
