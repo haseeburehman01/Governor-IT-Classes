@@ -4,10 +4,10 @@
 
 // console.log("Hello World");
 
-let userName = "Haseeb Ur Rehman";
-console.log(userName);
-userName = "is governor of sindh"
-console.log(userName)
+// let userName = "Haseeb Ur Rehman";
+// console.log(userName);
+// userName = "is governor of sindh"
+// console.log(userName)
 
 
-let lastName: string = "Haseeb Ur Rehman"
+// let lastName: string = "Haseeb Ur Rehman"
