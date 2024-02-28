@@ -9,6 +9,10 @@
 // let personName = "Albert Einstein"
 // let message = "once said, “A person who never made a mistake never tried anything new.”"
 // console.log(personName, message);
-var person_name = "Albert Einstein";
-var message = "once said, “A person who never made a mistake never tried anything new.”";
-console.log(person_name, message);
+// let person_name = "Albert Einstein"
+// let message = "once said, “A person who never made a mistake never tried anything new.”"
+// console.log(person_name, message);
+var WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n";
+console.log(WhiteSpaceName);
+var withoutWhiteSpace = WhiteSpaceName.trim();
+console.log(withoutWhiteSpace);

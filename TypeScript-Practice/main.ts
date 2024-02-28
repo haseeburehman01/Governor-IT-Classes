@@ -18,8 +18,37 @@
 
 // console.log(personName, message);
 
-let person_name = "Albert Einstein"
-let message = "once said, “A person who never made a mistake never tried anything new.”"
+// let person_name = "Albert Einstein"
+// let message = "once said, “A person who never made a mistake never tried anything new.”"
 
-console.log(person_name, message);
+// console.log(person_name, message);
+
+
+let WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n"
+console.log(WhiteSpaceName);
+
+let withoutWhiteSpace = WhiteSpaceName.trim();
+console.log(withoutWhiteSpace);
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
