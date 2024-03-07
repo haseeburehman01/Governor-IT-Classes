@@ -12,7 +12,10 @@
 // let person_name = "Albert Einstein"
 // let message = "once said, “A person who never made a mistake never tried anything new.”"
 // console.log(person_name, message);
-var WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n";
-console.log(WhiteSpaceName);
-var withoutWhiteSpace = WhiteSpaceName.trim();
-console.log(withoutWhiteSpace);
+// let WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n"
+// console.log(WhiteSpaceName);
+// let withoutWhiteSpace = WhiteSpaceName.trim();
+// console.log(withoutWhiteSpace);
+// === Personal Message ===
+var personName = "Haseeb Ur Rehman";
+console.log("Hello", personName, "Would you like to leran some phython tody?");

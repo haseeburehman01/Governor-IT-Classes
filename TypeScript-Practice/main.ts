@@ -24,13 +24,21 @@
 // console.log(person_name, message);
 
 
-let WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n"
-console.log(WhiteSpaceName);
+// let WhiteSpaceName = "\n\t Haseeb Ur Rehman \t\n"
+// console.log(WhiteSpaceName);
 
-let withoutWhiteSpace = WhiteSpaceName.trim();
-console.log(withoutWhiteSpace);
+// let withoutWhiteSpace = WhiteSpaceName.trim();
+// console.log(withoutWhiteSpace);
 
 
+
+
+
+// === Personal Message ===
+
+let personName = "Haseeb Ur Rehman"
+
+console.log("Hello", personName, "Would you like to leran some phython tody?");
 
 
 
