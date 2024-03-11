@@ -36,13 +36,42 @@
 
 // === Personal Message ===
 
-let personName = "Haseeb Ur Rehman"
+// let personName = "Haseeb Ur Rehman"
 
-console.log("Hello", personName, "Would you like to leran some phython tody?");
-
-
+// console.log("Hello", personName, "Would you like to leran some phython tody?");
 
 
+
+
+
+
+// let message = "Hello World"
+
+// console.log(message);
+
+
+
+
+// It seems like there's a small typo in your request. The error you're encountering is likely due to the misspelling of "includes" as "inculed". Here's the corrected version of your code:
+
+
+// let favorite_fruits = ["apples", "bananas", "cherries"];
+
+// if (favorite_fruits.includes("bananas")) {
+//     console.log("You really like bananas!");
+// }
+// if (favorite_fruits.includes("apples")) {
+//     console.log("You really like apples!");
+// }
+
+let favorite_fruits = ["apples", "bananas", "cherries"];
+
+if (favorite_fruits.includes("bananas")) {
+    console.log("You really like bananas!");
+}
+if (favorite_fruits.includes("apples")) {
+    console.log("You really like apples!");
+}
 
 
 
