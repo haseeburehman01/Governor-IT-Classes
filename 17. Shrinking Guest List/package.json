@@ -1,0 +1,15 @@
+{
+  "name": "17.-shrinking-guest-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "Modules",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
