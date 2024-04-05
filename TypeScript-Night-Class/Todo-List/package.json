@@ -1,9 +1,10 @@
 {
-  "name": "todo-list",
+  "name": "hsjs-todo-list",
   "version": "1.0.0",
   "description": "\"Typescript assginment by inquirer and calk and node\"",
   "main": "index.js",
   "type": "module",
+  "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
