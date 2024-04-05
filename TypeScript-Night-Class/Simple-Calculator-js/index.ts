@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { log } from 'console';
 import inquirer from 'inquirer';
 
@@ -22,7 +24,7 @@ const answer = await inquirer.prompt(
     ]
 )
 
-console.log(answer);
+// console.log(answer);
 
 if (answer.operator === '+') {
     console.log(answer.firstnumber + answer.secondnumber);

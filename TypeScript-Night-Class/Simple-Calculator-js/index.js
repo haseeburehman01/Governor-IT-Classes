@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import inquirer from 'inquirer';
 const answer = await inquirer.prompt([
     {
@@ -17,7 +18,7 @@ const answer = await inquirer.prompt([
         choices: ['+', '-', '*', '/']
     }
 ]);
-console.log(answer);
+// console.log(answer);
 if (answer.operator === '+') {
     console.log(answer.firstnumber + answer.secondnumber);
 }
