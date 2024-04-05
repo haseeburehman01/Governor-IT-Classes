@@ -1,5 +1,5 @@
 # Simple Calculator
-## hsj24s-simple-calculator
+## npx hsj24s-simple-calculator
 
 # Todo List
-## hsjs-todo-list
+## npx hsjs-todo-list
