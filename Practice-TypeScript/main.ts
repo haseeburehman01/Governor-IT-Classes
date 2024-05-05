@@ -31,5 +31,20 @@
 
 // halfHungry()
 
+// let productPrice = 1000;
 
-function 
+// function store(){
+//     let totalPrice = (productPrice - (productPrice / 100 * 10) )
+//     let percentage = (productPrice / 100 * 10)
+//     console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
+// }
+// store()
+
+let productPrice = 1000;
+
+function store(){
+    let percentage = (productPrice / 100 * 10)
+    let totalPrice = (productPrice - percentage )
+    console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
+}
+store()

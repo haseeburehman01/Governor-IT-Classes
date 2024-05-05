@@ -9,18 +9,32 @@
 //     islogined = true;
 //     console.log('login ');
 // }
-let dayName = 'monday';
-switch (dayName) {
-    case 'sunday':
-        console.log('You are in class ');
-        break;
-    case 'monday':
-        console.log('khan ha bhai');
-        break;
-    case 'tuesday':
-        console.log('ap ay nahi ho');
+// let dayName = 'monday'
+// switch (dayName) {
+//     case 'sunday':
+//         console.log('You are in class ');
+//         break
+//     case 'monday':
+//         console.log('khan ha bhai');
+//         break
+//         case 'tuesday':
+//             console.log('ap ay nahi ho');
+// }
+// let halfHungry = function(){
+//     console.log('hers is haseeb');
+// }
+// halfHungry()
+// let productPrice = 1000;
+// function store(){
+//     let totalPrice = (productPrice - (productPrice / 100 * 10) )
+//     let percentage = (productPrice / 100 * 10)
+//     console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
+// }
+// store()
+let productPrice = 1000;
+function store() {
+    let percentage = (productPrice / 100 * 10);
+    let totalPrice = (productPrice - percentage);
+    console.log(`Here is Your price ${totalPrice} & discount ${percentage}`);
 }
-let halfHungry = function () {
-    console.log('hers is haseeb');
-};
-halfHungry();
+store();
