@@ -26,7 +26,7 @@
 // for(let i = 0; i <= student.length; i++){
 //     console.log(student[i]);
 // }
- 
+
 
 // import { log } from 'console'
 import inquirer from 'inquirer'
@@ -35,95 +35,96 @@ let condition = true
 
 let employAdd = []
 
-while(condition){
-let sendData = await inquirer.prompt([
-    {
-        name : 'name',
-        message : 'Enter your name?',
-        type : 'string'
-    },
-    {
-        name : 'id',
-        message : 'Enter your ID',
-        type : 'number'
-    },
-    {
-        name : 'salary',
-        message : 'Enter your Salary',
-        type : 'number'
+while (condition) {
+    let sendData = await inquirer.prompt([
+        {
+            name: 'name',
+            message: 'Enter your name?',
+            type: 'string'
+        },
+        {
+            name: 'id',
+            message: 'Enter your ID',
+            type: 'number'
+        },
+        {
+            name: 'salary',
+            message: 'Enter your Salary',
+            type: 'number'
+        }
+    ])
+
+    // console.log(sendData);
+    employAdd.push(sendData)
+
+    let again = await inquirer.prompt(
+        {
+            name: 'Question',
+            message: 'Do you want to add more',
+            type: 'confirm',
+            default: 'true'
+        }
+    )
+
+    if (again.Question === false) {
+        condition = false
+        console.log(employAdd);
     }
-])
-
-// console.log(sendData);
-employAdd.push(sendData)
-
-let again = await inquirer.prompt(
-    {
-        name : 'Question',
-        message : 'Do you want to add more',
-        type : 'confirm',
-        default : 'true'
-    }
-)
-
-if(again.Question === false){
-    condition = false
-    console.log(employAdd);
-}
 }
 
 
 let modifiedList = await inquirer.prompt([
     {
-        name : 'feature',
-        message : 'Do you want modified list',
-        type : 'confirm',
-        default : 'true'
+        name: 'feature',
+        message: 'Do you want modified list',
+        type: 'confirm',
+        default: 'true'
     }
 ])
 
-if(modifiedList.feature === true){
-    let selectedWork = employAdd.map((item , index) => {
+if (modifiedList.feature === true) {
+    let selectedWork = employAdd.map((item, index) => {
         return {
-            name : `Name : ${item.name} Id : ${item.id} salary : ${item.salary}`, value: index
+            name: `Name : ${item.name} Id : ${item.id} salary : ${item.salary}`, value: index
         }
     })
 
 
     let qustion = await inquirer.prompt([
         {
-            name : 'Choice',
-            message : 'please select your employe',
-            type : 'list',
-            choices : selectedWork
-        }
-    ])
-    
-    let againQuestion = await inquirer.prompt([
-        {
-            name : 'againQuestion',
-            message : 'please select option.',
-            type : 'list',
-            choices : ["name", "id", "salary"]
-        },
-        {
-            name : 'newdata',
-            message : 'What do you want you edit',
-            type : 'input',
+            name: 'Choice',
+            message: 'please select your employe',
+            type: 'list',
+            choices: selectedWork
         }
     ])
 
-    switch(againQuestion.againQuestion){
-        case 'name' :
+    let againQuestion = await inquirer.prompt([
+        {
+            name: 'againQuestion',
+            message: 'please select option.',
+            type: 'list',
+            choices: ["name", "id", "salary"]
+        },
+        {
+            name: 'newdata',
+            message: 'What do you want you edit',
+            type: 'input',
+        }
+    ])
+
+    switch (againQuestion.againQuestion) {
+        case 'name':
             employAdd[qustion.choices].name = againQuestion.newdata
-        break;
-        case 'id' :
-            employAdd[qustion.choices].id = Number(againQuestion.newdata)  
-        break; 
+            break;
+        case 'id':
+            employAdd[qustion.choices].id = Number(againQuestion.newdata)
+            break;
         case 'salary':
             employAdd[qustion.choices].salary = Number(againQuestion.newdata)
     }
 
     console.log(employAdd);
-    
+
 }
+
