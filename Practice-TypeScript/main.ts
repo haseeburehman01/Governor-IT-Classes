@@ -40,11 +40,28 @@
 // }
 // store()
 
-let productPrice = 1000;
+// let productPrice = 1000;
 
-function store(){
-    let percentage = (productPrice / 100 * 10)
-    let totalPrice = (productPrice - percentage )
-    console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
-}
-store()
+// function store(){
+//     let percentage = (productPrice / 100 * 10)
+//     let totalPrice = (productPrice - percentage )
+//     console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
+// }
+// store()
+
+
+// IMLICIT TYPE
+let UserName = 'Haseeb';
+
+// EXPLICIT TYPE 
+let Fname:string = 'Haseeb'
+
+// TYPESCRIPT ARRAYS
+// let array:readonly string[] = ['haseeb', 'jawad', 'khalid']
+
+// array.push(1000)
+// console.log(array[0]);
+
+interface OurArray [1, string, ]
+
+

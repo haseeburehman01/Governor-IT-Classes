@@ -31,10 +31,17 @@
 //     console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
 // }
 // store()
-let productPrice = 1000;
-function store() {
-    let percentage = (productPrice / 100 * 10);
-    let totalPrice = (productPrice - percentage);
-    console.log(`Here is Your price ${totalPrice} & discount ${percentage}`);
-}
-store();
+// let productPrice = 1000;
+// function store(){
+//     let percentage = (productPrice / 100 * 10)
+//     let totalPrice = (productPrice - percentage )
+//     console.log(`Here is Your price ${totalPrice} & discount ${percentage}` );
+// }
+// store()
+// IMLICIT TYPE
+let UserName = 'Haseeb';
+// EXPLICIT TYPE 
+let Fname = 'Haseeb';
+// TYPESCRIPT ARRAYS
+let array = ['haseeb', 'jawad', 'khalid'];
+console.log(array[0]);
