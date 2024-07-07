@@ -62,6 +62,4 @@ let Fname:string = 'Haseeb'
 // array.push(1000)
 // console.log(array[0]);
 
-interface OurArray [1, string, ]
-
 
