@@ -2,25 +2,17 @@
 // Enums ===> by default enums jo ha phali value ko 0 sa define krta ha 
 //  Union Types ===> wo type ha jo ak variable ko two type assgin krta ha 
 // type aliases ===> ma modification ho sakhti ha .. type interface ma nahi ho sakhti 
-
-
 // typescript excution pr
-
 // Type Aliases and Interfaces
 // Basic Generics
 // REST PARAMETOR
-
 // setTimeout(() => {
 //     console.log('haseeb ur rehman');
 // }, 2000)
-
-let OurTuples: [string, boolean, number] = ['haseeb ===> TYPE TUPLES', false, 17]
+var OurTuples = ['haseeb ===> TYPE TUPLES', false, 17];
 console.log(OurTuples);
-
-let typeUnion: (string | number | boolean)[] = ['haseeb ===> typeunion', 17, false]
+var typeUnion = ['haseeb ===> typeunion', 17, false];
 console.log(typeUnion);
-
-
 // leran promises by sir anus
 // function createTea(tasktime: string, delay: number) {
 //     let promise: Promise<void> = new Promise((resolve, reject) => {
@@ -32,7 +24,6 @@ console.log(typeUnion);
 //     return promise
 // }
 // createTea('haseeburrehmanjs@gmail.com', 2)
-
 // let bankBalance = 10000
 // function shadiPaki() {
 //     return new Promise((resolve, reject) => {
@@ -54,26 +45,23 @@ console.log(typeUnion);
 // .catch(error => {
 //     console.log(error);
 // })
-
-
-let bankBalance = 200000
-
-function shadiPaki(){
-    return new Promise((resolve, reject) => {
-        if(bankBalance >= 100000){
+var bankBalance = 200000;
+function shadiPaki() {
+    return new Promise(function (resolve, reject) {
+        if (bankBalance >= 100000) {
             console.log('ami man gai');
-            resolve('then')
-        }else {
-            console.log('abu nahi man raha hain');
-            reject('catch')
+            resolve('then');
         }
-    })
+        else {
+            console.log('abu nahi man raha hain');
+            reject('catch');
+        }
+    });
 }
-
 shadiPaki()
-.then(reponce => {
+    .then(function (reponce) {
     console.log(reponce);
 })
-.catch(error => {
+    .catch(function (error) {
     console.log(error);
-})
+});
