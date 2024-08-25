@@ -63,3 +63,18 @@ let Fname:string = 'Haseeb'
 // console.log(array[0]);
 
 
+enum color {
+    red,
+    green,
+    blue,
+}
+console.log(color.blue);
+
+
+let ourTupples: [string, number , boolean]
+let ourTupples1: [string, number, boolean, string]
+
+ourTupples =['haseeb', 13 , false]
+console.log(ourTupples);
+
+// let myFunc(a:number):void {}

@@ -77,3 +77,30 @@ shadiPaki()
 .catch(error => {
     console.log(error);
 })
+
+
+// tupples
+// let users : [string, number, boolean, string]
+
+// users = ['hsaeeb ur rehman', 18, true, 'jawad']
+
+// interface employeeType {
+//     name : string,
+//     sallary : number,
+//     isLoggedIn : boolean,
+//     email : string
+// }
+
+
+// let employee = {
+//     name : 'haseeb ur rehman',
+//     sallary : 100000,
+//     isLoggedIn : true,
+//     email : ''
+// }
+
+
+let userName:(string | number) = 'sakdjaskldajd'
+console.log(userName);
+
+

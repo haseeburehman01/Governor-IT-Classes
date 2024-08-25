@@ -43,5 +43,18 @@ let UserName = 'Haseeb';
 // EXPLICIT TYPE 
 let Fname = 'Haseeb';
 // TYPESCRIPT ARRAYS
-let array = ['haseeb', 'jawad', 'khalid'];
-console.log(array[0]);
+// let array:readonly string[] = ['haseeb', 'jawad', 'khalid']
+// array.push(1000)
+// console.log(array[0]);
+var color;
+(function (color) {
+    color[color["red"] = 0] = "red";
+    color[color["green"] = 1] = "green";
+    color[color["blue"] = 2] = "blue";
+})(color || (color = {}));
+console.log(color.blue);
+let ourTupples;
+let ourTupples1;
+ourTupples = ['haseeb', 13, false];
+console.log(ourTupples);
+// let myFunc(a:number):void {}
